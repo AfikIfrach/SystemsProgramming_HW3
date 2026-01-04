@@ -29,6 +29,7 @@ public class Gamer implements Runnable {
         return goodFlipsCounter;
     }
 
+    @Override
     public void run(){
         play();
     }

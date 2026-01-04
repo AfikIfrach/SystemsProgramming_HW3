@@ -8,6 +8,7 @@ public class Judge implements Runnable {
         this.gamePlay=_gamePlay;
     }
 
+    @Override
     public void run(){
         while (!Thread.currentThread().isInterrupted()){
             this.gamePlay.makeCoinAvail(false);
