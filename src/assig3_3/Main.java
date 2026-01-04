@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
         System.out.println("Please Type How Many Salads To Prepare:");
         Scanner scan = new Scanner(System.in);
         final int numOfSaladsToPrepare = scan.nextInt();
